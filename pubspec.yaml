@@ -1,0 +1,27 @@
+name: heos_dashboard
+description: HEOS Energy Monitoring Dashboard
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # MQTT Client for IoT communication
+  mqtt_client: ^10.2.0
+  
+  # For UI components
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
